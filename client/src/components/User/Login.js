@@ -41,8 +41,8 @@ const Login = () => {
 
     return (
         <>
-        <h5 style={{position: 'fixed', top: '20%', left: '40%'}}>Login to see your Dashboard</h5>
-        <form id='login' className='myCard z-depth-1' style={{width:'20rem', position: 'absolute', left: 0,  right: 0, margin: 'auto' }} onSubmit={submitHandler}>
+        <h5 style={{position: 'absolute', top: '20%', left: '0', right: '0', margin:'auto', textAlign:'center'}}>Login to see your Dashboard</h5>
+        <form id='login' className='myCard z-depth-1' style={{width:'20rem', position: 'absolute', left: '0',  right: '0', margin: 'auto' }} onSubmit={submitHandler}>
         
         <div className="input-field">
             <input type="text" id="username1" name="username" value={username} onChange={changeHandler}/>

@@ -13,8 +13,6 @@ app.use(express.json({extended: false}));
 app.use(cors());
 
 //routes
-app.get('/', (req,res)=>res.json('Welcome to Tracker'))
-
 app.use('/api/tasks', require('./routes/tasks'))
 
 app.use('/api/users', require('./routes/users'));
