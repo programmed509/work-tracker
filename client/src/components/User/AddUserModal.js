@@ -35,7 +35,7 @@ const AddUserModal = () => {
     const { name, username, pin } = user;
 
     return (
-        <div id='add-user-modal' className='modal bottom-sheet' style={{width:'25%', height:'50%'}}>
+        <div id='add-user-modal' className='modal bottom-sheet' style={{width:'35%', height:'50%'}}>
         
         <form style={{padding: '20px'}} onSubmit={submitHandler}>
         <h5>Register the new user <span><a href='#!' className='material-icons right red-text modal-close'>close</a></span></h5>

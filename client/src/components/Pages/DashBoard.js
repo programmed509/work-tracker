@@ -11,7 +11,6 @@ const DashBoard = () => {
     },[])
     
     const userContext = useContext(UserContext);
-
     const { authUser, user } = userContext;
 
     return(

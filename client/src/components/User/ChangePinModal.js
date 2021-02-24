@@ -38,9 +38,9 @@ const ChangePinModal = () => {
     const { oldPin, newPin } = pin;
 
     return (
-        <div id='change-pin-modal' className='modal bottom-sheet' style={{width:'20%', height:'35%'}}>
+        <div id='change-pin-modal' className='modal bottom-sheet' style={{width:'35%', height:'35%'}}>
         
-        <form style={{width:'20rem', position: 'absolute', left: 0,  right: 0, margin: 'auto' }} onSubmit={submitHandler}>
+        <form style={{width:'35rem', position: 'absolute', left: 0,  right: 0, margin: 'auto' }} onSubmit={submitHandler}>
             <h5>Change Your PIN <span><a href='#!' className='material-icons right red-text modal-close'>close</a></span></h5>
             <div className="input-field">
                 <input type="password" id="oldPin" name="oldPin" value={oldPin} onChange={changeHandler} />

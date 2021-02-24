@@ -35,6 +35,12 @@ const Navbar = () => {
         )
     }
 
+    const onEnter=(e)=>{
+        if(e.keycode == 13){
+            e.preventDefault();
+        }
+    }
+
     const authLinks=()=>{
         return(
             <form>
